@@ -1,0 +1,201 @@
+:global {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .swiper-slide {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+@mixin XXXTENTACION{
+  width: 1318px;
+  height: 461px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .DonToliver{
+    width: 574px;
+    height: 423px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    h1{
+      background: linear-gradient(90deg, #81008C 0%, #540096 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+      font-size: 50px;
+    }
+    p{
+      font-size: 20px;
+      color: #282828;
+    }
+    .Cover{
+      width: 138px;
+      height: 48px;
+      background-color: #973499;
+      border-radius: 15px;
+      border: none;
+      font-size: 20px;
+      color: white;
+      cursor: pointer;
+    }
+    .Marcus{
+      width: 120px;
+      height: 32px;
+    }
+  }
+  .donut{
+    width: 722px;
+    height: 461px;
+  }
+}
+.First {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  background-color: #FFE7E7;
+  header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    nav {
+      width: 1312px;
+      height: 129px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      background-color: white;
+      box-shadow: 0 1px 25px #CE44E4;
+      .zxc{
+        width: 1247px;
+        height: 94px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1{
+            font-size: 35px;
+            color: #CE44E4;
+        }
+        ul{
+            width: 388px;
+            height: 44px;
+            display: flex;
+            background-color: white;
+            align-items: center;
+            justify-content: space-between;
+            list-style: none;
+            li a{
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+            }
+        }
+        .goyda{
+            width: 239px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            font-size: 20px;
+            img{
+              width: 68px;
+              height: 30px;
+            }
+        }
+      }
+    }
+  }
+  .XXXTENTACION{
+    width: 1318px;
+    height: 562px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .TRUELOVE{
+      @include XXXTENTACION();
+    }
+    .strelka{
+      width: 59px;
+      height: 62px;
+    }
+  }
+}
+.Second{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF8F8;
+  .DuaLipa{
+    width: 1220px;
+    height: 348px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    .TomFord{
+      width: 321px;
+      height: 122px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      h1{
+        font-size: 30px;
+        color: #E35050;
+      }
+      p{
+        font-size: 20px;
+      }
+    }
+    .Versaci{
+      width: 811px;
+      height: 348px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      .text{
+        width: 811px;
+        height: 72px;
+        font-size: 23px;
+        display: flex;
+        text-align: center;
+      }
+    }
+  }
+}

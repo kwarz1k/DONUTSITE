@@ -1,0 +1,135 @@
+@mixin Zidane{
+    width: 1266px;
+    height: 684px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .batareyka{
+        width: 1266px;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1{
+            background: linear-gradient(90deg, #81008C 0%, #540096 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+            font-size: 50px;
+        }
+        p{
+            color: #919191;
+            font-size: 20px;
+        }
+    }
+    .yall{
+        width: 1266px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        p{
+            font-size: 20px;
+            color: #E35050;
+        }
+    }
+}
+@mixin zxcgoyda{
+    width: 1264px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    .mySlide {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    gap: 35px;             
+    }
+    .zxccx {
+      width: 398px;
+      height: 511px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 15px;
+      background-color: #FFFFFF;
+      .LilNasx{
+        width: 365px;
+        height: 468px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        p{
+            font-size: 20px;
+        }
+        h1{
+            font-size: 25px;
+        }
+        img{
+            width: 365px;
+            height: 235px;
+        }
+        .PostMalone{
+            width: 365px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            p{
+                font-size: 20px;
+            }
+            .knopka{
+                width: 151px;
+                height: 48px;
+                background-color: #973499;
+                border: none;
+                color: white;
+                font-size: 20px;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+        }
+      }
+    }
+    
+}
+.Third{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF8F8;
+    .centr{
+        @include Zidane();
+    }
+}
+.swiper {
+  width: 1264px;
+  height: auto !important;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mySwiper {
+  width: 100%;
+  height: 100vh; 
+}
+.GIfk{
+    @include zxcgoyda();
+}
