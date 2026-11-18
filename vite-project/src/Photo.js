@@ -6,6 +6,8 @@ import Pzeki from './assets/Pzeki.png'
 import cake1 from './assets/cake1.png'
 import cake2 from './assets/cake2.png'
 import cake3 from './assets/cake3.png'
+import bad from './assets/bad.png'
+import boys from './assets/boys.png'
 export const Photo={
     MAN:MAN,
     strelka:strelka,
@@ -15,4 +17,6 @@ export const Photo={
     cake1:cake1,
     cake2:cake2,
     cake3:cake3,
+    bad:bad,
+    boys:boys,
 }

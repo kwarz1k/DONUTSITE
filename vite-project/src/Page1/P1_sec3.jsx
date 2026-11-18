@@ -7,11 +7,11 @@ import 'swiper/css/navigation';
 export default function App(){
     return(
         <>
-            <section className={classes.Five}>
+            <section className={classes.Six}>
                 <div className={classes.centr}>
                     <div className={classes.batareyka}>
                         <p>-------------------------------------------------------</p>
-                        <h1>OUR NEW ARTICLES</h1>
+                        <h1>OUR CUSTOMERS</h1>
                         <p>------------------------------------------------------</p>
                     </div>
                     <div className={classes.GIfk}>
@@ -30,12 +30,78 @@ export default function App(){
                     <SwiperSlide className={classes.mySlide}>
                     <div className={classes.zxccx}>
                         <div className={classes.LilNasx1}>
-                            <div className={classes.Beer}>
-                                <div className={classes.FollowMe}>
-                                    <p>23 MAR</p>
+                            <div className={classes.GTA6}>
+                                <img src={Photo.bad}></img>
+                                <div className={classes.Kylian1}>
+                                    <h1>Bianka P.</h1>
+                                    <p>Bratislava, Slovakia</p>
                                 </div>
-                                <h1>How to make perfect cakes at home</h1>
                             </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        </div>
+                    </div>
+                    <div className={classes.zxccx}>
+                        <div className={classes.LilNasx1}>
+                            <div className={classes.GTA6}>
+                                <img src={Photo.boys}></img>
+                                <div className={classes.Kylian1}>
+                                    <h1>Jakub S.</h1>
+                                    <p>Bratislava, Slovakia</p>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        </div>
+                    </div>
+                    </SwiperSlide>
+                    <SwiperSlide className={classes.mySlide}>
+                    <div className={classes.zxccx}>
+                        <div className={classes.LilNasx1}>
+                            <div className={classes.GTA6}>
+                                <img src={Photo.bad}></img>
+                                <div className={classes.Kylian1}>
+                                    <h1>Bianka P.</h1>
+                                    <p>Bratislava, Slovakia</p>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        </div>
+                    </div>
+                    <div className={classes.zxccx}>
+                        <div className={classes.LilNasx1}>
+                            <div className={classes.GTA6}>
+                                <img src={Photo.boys}></img>
+                                <div className={classes.Kylian1}>
+                                    <h1>Jakub S.</h1>
+                                    <p>Bratislava, Slovakia</p>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        </div>
+                    </div>
+                    </SwiperSlide>
+                    <SwiperSlide className={classes.mySlide}>
+                    <div className={classes.zxccx}>
+                        <div className={classes.LilNasx1}>
+                            <div className={classes.GTA6}>
+                                <img src={Photo.bad}></img>
+                                <div className={classes.Kylian1}>
+                                    <h1>Bianka P.</h1>
+                                    <p>Bratislava, Slovakia</p>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        </div>
+                    </div>
+                    <div className={classes.zxccx}>
+                        <div className={classes.LilNasx1}>
+                            <div className={classes.GTA6}>
+                                <img src={Photo.boys}></img>
+                                <div className={classes.Kylian1}>
+                                    <h1>Jakub S.</h1>
+                                    <p>Bratislava, Slovakia</p>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                         </div>
                     </div>
                     </SwiperSlide>

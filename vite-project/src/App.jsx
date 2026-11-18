@@ -10,7 +10,7 @@ import P1_sec1 from './Page1/P1_sec1'
 import P1_sec2 from './Page1/P1_sec2'
 import P1_sec3 from './Page1/P1_sec3'
 function App() {
-
+  const [cubeTransitioning, setCubeTransitioning] = useState(false)
   return (
     <>
     <Swiper 
@@ -25,7 +25,9 @@ function App() {
         }}
         pagination={true}
         modules={[EffectCube]}
-        className="mySwiper"
+        onSlideChangeTransitionStart={() => setCubeTransitioning(true)}
+        onSlideChangeTransitionEnd={() => setCubeTransitioning(false)}
+        className={`${classes.outerSwiper} ${cubeTransitioning ? classes.cubeTransitioning : ''}`}
       >
         <SwiperSlide>
           <section className={classes.First}>
@@ -90,7 +92,16 @@ function App() {
           <P1_sec3/>
         </SwiperSlide>
         <SwiperSlide>
+          <footer>
+            <div className={classes.centr}>
+              <div className={classes.left}>
 
+              </div>
+              <div className={classes.right}>
+                
+              </div>
+            </div>
+          </footer>
         </SwiperSlide>
       </Swiper>
     </>
