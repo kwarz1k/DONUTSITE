@@ -8,6 +8,7 @@ import cake2 from './assets/cake2.png'
 import cake3 from './assets/cake3.png'
 import bad from './assets/bad.png'
 import boys from './assets/boys.png'
+import normal from './assets/normal.png'
 export const Photo={
     MAN:MAN,
     strelka:strelka,
@@ -19,4 +20,5 @@ export const Photo={
     cake3:cake3,
     bad:bad,
     boys:boys,
+    normal:normal
 }

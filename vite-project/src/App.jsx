@@ -95,10 +95,25 @@ function App() {
           <footer>
             <div className={classes.centr}>
               <div className={classes.left}>
-
+                <h1>Bakery</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <img src={Photo.normal}></img>
               </div>
               <div className={classes.right}>
-                
+                <div className={classes.text}>
+                  <h1>OUR STORES</h1>
+                  <p>SLOVAKIA</p>
+                  <p>CZECH REPUBLIC</p>
+                  <p>FINLAND</p>
+                  <p>POLAND</p>
+                </div>
+                <div className={classes.text}>
+                  <h1>USEFUL LINKS</h1>
+                  <p>HOME</p>
+                  <p>PRIVACY POLICY</p>
+                  <p>TERMS CONDITIONS</p>
+                  <p>CONTACT US</p>
+                </div>
               </div>
             </div>
           </footer>
